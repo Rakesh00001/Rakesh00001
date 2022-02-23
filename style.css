@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    /* background-color: rgb(13, 13, 49); */
+}
+#nav{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 130px;
+    margin-left: 100px;
+}
+.nav-link{
+
+}
+.nav-link ul{
+padding-right: 150px;
+}
+.nav-link ul li{
+display: inline-block;
+list-style: none;
+padding-right: 20px;
+
+}
+.nav-link ul li a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+font-family: sans-serif;
+text-shadow: 0 0 1px rgba(255,255,255,0.3);
+font-size: 1em;
+
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: orangered;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+ .btn{
+    background-color: orangered;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1em;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text h1{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform:capitalize;
+    margin-bottom: 30px;
+}
+.text form input{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.text form button{
+    position: absolute;
+    top:69%;
+    right: 2%;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 6px;
+    height: 30px;
+}
+.icon-grop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 29%;
+    position: absolute;
+    bottom: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.iteam{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: rgba(34, 9, 1, 0.808);
+    position: relative;
+    text-align: center;
+    padding-top:15px ;
+    color: #fff;
+    }
+.iteam img{
+    width: 100%;
+    max-width: 30px;
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    
+}    
+
