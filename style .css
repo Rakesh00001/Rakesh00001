@@ -1,0 +1,235 @@
+.navbar-toggler i{
+    font-size: 30px !important;
+    color: #ccc!important;
+    font-weight: 800 !important;
+    border: none !important;
+    outline: none !important;
+}
+#header{
+    position: relative;
+}
+#header nav{
+    border-radius: 0% 0% 20% 20% !important;
+    box-shadow: 5px 5px 10px #ccc;
+    z-index: 100;
+   background-color: rgb(255, 255, 255);
+   }
+#header nav ul li a{
+    padding: 10px;
+}
+#header nav ul li:hover,.active{
+    /* background-color: tomato !important; */
+    border-radius: 10px !important;
+}
+#carouselExampleDark .carousel-inner{
+    height: 100vh;
+
+}
+#carouselExampleDark .carousel-inner .carousel-item .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#carouselExampleDark .carousel-inner .carousel-item{
+    height: 100%;
+    position: relative;
+}
+#carouselExampleDark .carousel-inner .carousel-item .first-content{
+    position: absolute !important;
+    top: 38%;
+    
+}
+#carouselExampleDark .carousel-inner .carousel-item .first-content h1{
+color: white !important;
+font-size: 60px !important;
+font-weight: 800;
+font-family: 'Eagle Lake', cursive;
+}
+#carouselExampleDark .carousel-inner .carousel-item .first-content p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #ccc;
+margin-top: 20px;
+}
+#carouselExampleDark .carousel-inner .carousel-item img{
+    object-fit: cover !important;
+    height: 100% !important;
+}
+#carouselExampleDark{
+/* margin-top: -10px; */
+} 
+.carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
+    background-color:tomato;
+  }
+
+  .carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+    background-color:tomato;
+}
+#carouselExampleDark .carousel-indicators button{
+    height: 7px !important;
+    width:50px !important ;
+    background-color:rgb(236, 95, 70);
+    /* border-radius: 50% !important; */
+} 
+/*---------------about section---------------*/
+#about{
+    padding-top: 80px;
+    background-image: url('image/about-bg.jpg');
+    width: 100%;
+    background-position: center;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid rebeccapurple; */
+}
+#about .container .row .col-sm-12 p{
+line-height: 30px !important;
+font-size: 18px;
+font-weight: 300;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+#about .container .row .reservation{
+    padding: 10px;
+    background-color: #d95000;
+    border: none;
+    outline: none;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    transition: 0.6s ease;
+}
+#about .container .row .reservation:hover{
+    background-color: rgb(27, 25, 25);
+}
+/*--------------background section-------------*/
+#background{
+    padding: 150px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('image/qt-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*----------------menu section------------*/
+#menu{
+   padding-top: 100px;
+   box-sizing: border-box;
+   width: 100%;
+}
+#menu h3{
+   text-align: center;
+   font-family: sans-serif;
+   margin-top: -30px;
+   font-weight: 600; 
+}
+.image{
+width: 280px !important;
+height: 170px !important;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+}
+.image img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.menu-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(193, 155, 106,0.9);
+    position: absolute;
+    top: 0;
+    transform: translateY(100%);
+    transition: 0.6s ease;
+}
+ .image:hover .layer{
+    transform: translateY(0%);
+}
+.gellary{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.gellary h3{
+    font-weight: 600;
+    margin-top: 100px;
+}
+.gellary .row .col-md-4 a img{
+   border: 4px solid rgb(195, 59, 59);
+   transition: 0.2s ease; 
+}
+.gellary .row .col-md-4 a img:hover{
+    border: none;
+    box-shadow: 10px 10px 15px #000;
+}
+/* ---------------------Review------------------ */
+.container .reviw-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* background-color: tomato; */
+    
+}
+.container .carousel-item h3{
+    margin-top: 25px;
+}
+/* contact section start */
+.contact{
+    width: 100%;
+    height: auto;
+    border: 2px solid tomato;
+    margin-top: 50px;
+    background-color:tomato;
+    padding-left: 50px;
+}
+.phone-icon{
+    width: 65px;
+    height: 65px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+   
+}
+/* contact section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
